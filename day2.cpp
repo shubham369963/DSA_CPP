@@ -47,21 +47,33 @@ int main(){
     // }while(value<7);
 
 
-    int a = 8;
+    // int a = 8;
 
-    int *ptr = &a;
+    // int *ptr = &a;
 
-    int **p = &ptr;
+    // int **p = &ptr;
 
-    cout<<a<<endl; //8
-    cout<<&a<<endl; //0x62febc
-    cout<<ptr<<endl; //0x62febc
-    cout<<*ptr<<endl; //8
-    cout<<&ptr<<endl; //0x62feb8
-    cout<<**p<<endl; //8
-    cout<<*p<<endl; //0x62febc
-    cout<<p<<endl; //0x62feb8
-    cout<<&p<<endl; //0x62feb4
+    // cout<<a<<endl; //8
+    // cout<<&a<<endl; //0x62febc
+    // cout<<ptr<<endl; //0x62febc
+    // cout<<*ptr<<endl; //8
+    // cout<<&ptr<<endl; //0x62feb8
+    // cout<<**p<<endl; //8
+    // cout<<*p<<endl; //0x62febc
+    // cout<<p<<endl; //0x62feb8
+    // cout<<&p<<endl; //0x62feb4
+
+    // int arr[3] = {10, 20, 30};
+
+    // cout<<arr<<endl; //0x62feb4
+    // cout<<arr+1<<endl; //0x62feb8
+    // cout<<arr+2<<endl; //0x62febc
+
+    // cout<<*(arr)<<endl; //10
+    // cout<<*(arr+1)<<endl; //20
+    // cout<<*(arr+2)<<endl; //30
+
+    // cout<<arr[0]<<endl;
 
 
 
