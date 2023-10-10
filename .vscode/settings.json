@@ -3,7 +3,10 @@
     "*.ejs": "html",
     "*.scss": "scss",
     "iostream": "cpp",
-    "utility": "cpp"
+    "utility": "cpp",
+    "vector": "cpp",
+    "map": "cpp",
+    "unordered_map": "cpp"
   },
   "C_Cpp.errorSquiggles": "disabled"
 }

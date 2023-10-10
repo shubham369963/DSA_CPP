@@ -44,5 +44,23 @@ int main(){
     //     mid = (left + right)/2;
     // }
 
+    int a = 81;
+
+    int left = 0;
+    int right = a;
+
+    int mid = (left + right)/2;
+    while(left <= right){
+        if(mid*mid == a){
+            cout<<mid<<endl;
+            break;
+        }else if(mid*mid > a){
+            right = mid-1;
+        }else{
+            left = mid+1;
+        }
+        mid = (left + right)/2;
+    }
+    cout<<mid<<endl;
     return 0;
 }
