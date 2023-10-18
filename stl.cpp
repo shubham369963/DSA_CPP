@@ -64,13 +64,5 @@ int main(){
     cout<<s.size()<<endl;
     s.pop();
     cout<<s.top()<<endl;
-
-
-    
-
-
-
-
-
     return 0;
 }
